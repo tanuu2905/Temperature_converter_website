@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempconverter</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="mainside">
+            <h1>Temperature converter</h1>
+            <br>
+            <form  onsubmit="calculatetemp(); return false" >
+           <input type="number" id="number" placeholder="Enter temperature">
+
+            <select name="tempselector" id="tempunit">
+                <option value="cel">°Celsius</option>
+                <option value="fah">°Fahrenheit</option>
+            </select> <br>
+
+           <button id="submit">submit</button> <br>
+
+             <textarea  id="output" cols="20" rows="2"  placeholder="Temperature in °C/°F" ></textarea>
+             <textarea  id="outputk" cols="20" rows="2" placeholder="Temperature in Kelvin"></textarea>
+
+
+            </form>
+        
+
+        </div>
+    </div>
+    <script src="js.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.main {
+   width: 100%;
+   height: 100vh;
+   background-image: url('temp.jpg');
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main .mainside {
+   padding: 3rem;
+   background-color: rgba(252, 252, 252, 0.4);
+}
+
+.main .mainside form #number,
+#tempunit,
+#submit,
+#output,
+#outputk {
+   margin: 0.2rem;
+   margin-top: 1rem;
+}
+
+.main .mainside form #number {
+   padding: 0.5rem;
+   color: black;
+   background-color: transparent;
+   border: 2px solid black;
+   font-weight: bolder;
+}
+
+.main .mainside form #tempunit {
+   border: 2px solid black;
+   padding: 0.5rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   margin-left: 0.8rem;
+   color: black;
+   background-color: transparent;
+}
+
+.main .mainside form #submit {
+   border: 2px solid blue;
+   font-size: 1rem;
+   margin-left: 8rem;
+   padding: 0.5rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   color: whitesmoke;
+   background-color: blue;
+}
+
+.main .mainside form #output {
+   border: 2px solid black;
+   padding: 0.5rem;
+   color: black;
+   background-color: transparent;
+   font-size: 15px;
+   font-weight: bolder;
+}
+
+.main .mainside form #outputk {
+   font-size: 15px;
+   font-weight: bolder;
+   border: 2px solid black;
+   padding: 0.5rem;
+   color: black;
+   background-color: transparent;
+}
